@@ -4,9 +4,9 @@ from bs4 import BeautifulSoup
 # Get new lab url from https://portswigger.net/web-security/authentication/password-based/lab-broken-bruteforce-protection-ip-block
 url = 'https://UPDATEME.web-security-academy.net/login'
 
-# Saved to file from https://portswigger.net/web-security/authentication/auth-lab-usernames
+# Save usernames to file from https://portswigger.net/web-security/authentication/auth-lab-usernames
 auth_lab_usernames = 'auth-lab-usernames.txt'
-# Saved to file from https://portswigger.net/web-security/authentication/auth-lab-passwords
+# Saved passwords to file from https://portswigger.net/web-security/authentication/auth-lab-passwords
 auth_lab_passwords = 'auth-lab-passwords.txt'
 
 def checkUrlStatus():
