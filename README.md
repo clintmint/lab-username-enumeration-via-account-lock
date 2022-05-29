@@ -12,7 +12,11 @@ Save usernames and passwords to text files in working directory. Copy and paste 
  - https://portswigger.net/web-security/authentication/auth-lab-usernames
  - https://portswigger.net/web-security/authentication/auth-lab-passwords
 
-Simply run the script with `python3 fuzz.py`. 
+Simply run the script with
+
+```
+python3 fuzz.py
+``` 
 
 The `enumerate_username()` function is used to make 5 requests using the same username and password in an attempt to trigger a lockout. Note that the error message of the response will change when a valid username is found.
 
