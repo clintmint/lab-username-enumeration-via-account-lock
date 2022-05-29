@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-# Get new lab url from https://portswigger.net/web-security/authentication/password-based/lab-broken-bruteforce-protection-ip-block
+# Get new lab url from https://portswigger.net/web-security/authentication/password-based/lab-username-enumeration-via-account-lock
 url = 'https://UPDATEME.web-security-academy.net/login'
 
 # Save usernames to file from https://portswigger.net/web-security/authentication/auth-lab-usernames
